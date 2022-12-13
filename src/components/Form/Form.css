@@ -1,0 +1,28 @@
+.form {
+ display: flex;
+ flex-direction: column;
+ max-width: 50%;
+ margin: auto;
+ padding-top: 2rem;
+}
+
+.weight,
+.height {
+ padding: 1rem;
+ margin-bottom: 1rem;
+ border-radius: 8px;
+}
+
+.button {
+ padding: 1rem;
+ border-radius: 8px;
+}
+
+.button:hover {
+ cursor: pointer;
+}
+
+p {
+ text-align: center;
+ font-size: 1.5em;
+}
